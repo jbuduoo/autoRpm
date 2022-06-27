@@ -1,0 +1,49 @@
+
+#參考資料:https://developer.yahoo.com/oauth2/guide/openid_connect/getting_started.html#getting-started-setup
+
+##創建一個 Yahoo 帳戶才能在Yahoo Developer Network (YDN) 上設置應用程序。
+##擁有 Yahoo 帳戶後，創建一個應用程序 
+
+##第 1 步：向 Yahoo 發送身份驗證請求, 回傳轉定向https://www.ascentac.com/zh/?code=zny58em53ghrj7hdxfwkffzegkqc5a7m
+https://api.login.yahoo.com/oauth2/request_auth?
+client_id=dj0yJmk9cjNpZnViQTVmd2Z5JmQ9WVdrOVVFZDFOMWt6WVZvbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl&
+response_type=code&
+redirect_uri=https://www.ascentac.com/zh/&
+scope=openid&
+nonce=YihsFwGKgt3KJUh6tPs2
+
+
+##
+Client ID (Consumer Key)
+dj0yJmk9cjNpZnViQTVmd2Z5JmQ9WVdrOVVFZDFOMWt6WVZvbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl
+Client Secret (Consumer Secret)
+3241e66add89a31f0e2e79b3a7d114986a578f36
+
+## Base64 encoding of client_id:client_secret
+dj0yJmk9cjNpZnViQTVmd2Z5JmQ9WVdrOVVFZDFOMWt6WVZvbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl:3241e66add89a31f0e2e79b3a7d114986a578f36
+## 結果
+Basic ZGoweUptazljak5wWm5WaVFUVm1kMlo1Sm1ROVdWZHJPVlZGWkRGT01XdDZXVlp2YldOSGJ6bE5RVDA5Sm5NOVkyOXVjM1Z0WlhKelpXTnlaWFFtYzNZOU1DWjRQVFZsOjMyNDFlNjZhZGQ4OWEzMWYwZTJlNzliM2E3ZDExNDk4NmE1NzhmMzYK
+
+
+
+
+
+https://api.login.yahoo.com/oauth2/request_auth?
+client_id=dj0yJmk9cjNpZnViQTVmd2Z5JmQ9WVdrOVVFZDFOMWt6WVZvbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl&
+response_type=code&
+redirect_uri=https://www.ascentac.com/zh/&
+scope=admg-w&
+nonce=YihsFwGKgt3KJUh6tPs2
+
+https://www.ascentac.com/zh/?code=cngwa2tu3f3z65uvvpk4xf6sxtmr2mau
+
+
+
+
+資訊:
+https://api.login.yahoo.com/oauth2/get_token?client_id=dj0yJmk9cjNpZnViQTVmd2Z5JmQ9WVdrOVVFZDFOMWt6WVZvbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTVl&client_secret=3241e66add89a31f0e2e79b3a7d114986a578f36&redirect_uri=https://www.ascentac.com/zh/&code=cngwa2tu3f3z65uvvpk4xf6sxtmr2mau&grant_type=authorization_code
+header:
+Content-Type:application/x-www-form-urlencoded
+Authorization:Basic ZGoweUptazljak5wWm5WaVFUVm1kMlo1Sm1ROVdWZHJPVlZGWkRGT01XdDZXVlp2YldOSGJ6bE5RVDA5Sm5NOVkyOXVjM1Z0WlhKelpXTnlaWFFtYzNZOU1DWjRQVFZsOjMyNDFlNjZhZGQ4OWEzMWYwZTJlNzliM2E3ZDExNDk4NmE1NzhmMzY=
+
+
